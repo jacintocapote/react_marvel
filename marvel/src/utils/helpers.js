@@ -3,8 +3,8 @@ var md5 = require('md5');
 
 function getMarvelCharacters(key){
     var ts = Date.now();
-    var private_key = 'fc77bba6e40243bc554d08073f19b74454c9a84d';
-    var public_key = '0b78bc1780065ce276e924699d555b9c';
+    var private_key = 'Add your private key here';
+    var public_key = 'Add your public key here';
     var hash = md5(ts+private_key+public_key);
     var keySearch = key;
 
