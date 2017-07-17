@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "axios": "0.16.02",
+    "md5": "2.2.1",
+    "react-addons-test-utils": "15.6.0",
+    "react-test-render": "1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
